@@ -307,32 +307,4 @@ cd backend && npm test
 
 ---
 
-## 🎥 Demo Script (2-5 min)
 
-1. **Intro** (0:00–0:20) — "This is TeamFlow, a production-ready team task manager built with React, Node.js, and MongoDB."
-
-2. **Auth** (0:20–0:50) — Register as admin → show JWT in cookie → login with wrong password to show validation → login success.
-
-3. **Dark Mode** (0:50–1:00) — Toggle dark mode in top bar.
-
-4. **Create Project** (1:00–1:30) — New Project → fill in name, description, color, due date, invite a member email → show project card with progress bar.
-
-5. **Create Tasks** (1:30–2:15) — Open project → Add Task → set title, priority Critical, assign to member, due date yesterday → show overdue highlighting → create 3 more tasks across different priorities.
-
-6. **Kanban Board** (2:15–2:45) — Show board view with 3 columns → click status badge on a card to cycle through → show list view.
-
-7. **Member perspective** (2:45–3:15) — Open new tab, login as member → can see project → can update task status → cannot delete task (403 shown).
-
-8. **Dashboard** (3:15–3:50) — Show stat cards, completion trend line chart, pie chart, overdue counter, upcoming tasks list, activity feed.
-
-9. **Calendar** (3:50–4:15) — Show monthly calendar, click date to see task detail sidebar.
-
-10. **Search & Filter** (4:15–4:40) — Go to All Tasks → search "bug" → filter by priority High → toggle Overdue → Export CSV.
-
-11. **Wrap Up** (4:40–5:00) — "Full RBAC, real-time notifications, activity logs, dark mode, CSV export, and 18 backend tests."
-
----
-
-## 📄 License
-
-MIT © 2024 TeamFlow
